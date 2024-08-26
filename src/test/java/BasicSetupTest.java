@@ -25,5 +25,4 @@ public class BasicSetupTest {
     public void tearDown() {
         browser.quit();
     }
-
 }

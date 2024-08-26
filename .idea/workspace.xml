@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kkUDT8wyjwWWMVKwdEEBE9wCAF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,16 +38,24 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.authenticationTest.executor": "Run",
     "TestNG.SeleniumTestngTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "TestNG.SeleniumTestngTest.selectCheckBoxesTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.selectCheckboxesTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.verifyHorizontalSliderTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.verifySelectedDropdownOptionIsActiveTest.executor": "Run",
+    "git-widget-placeholder": "SeleniumTestngTests__Homework",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest.myTest">
+  <component name="RunManager" selected="TestNG.SeleniumTestngTest">
     <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,11 +67,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTestngTest.authenticationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="METHOD_NAME" value="authenticationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.selectCheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="selectCheckboxesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.verifyHorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="verifyHorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.verifySelectedDropdownOptionIsActiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="verifySelectedDropdownOptionIsActiveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,8 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest.myTest" />
         <item itemvalue="TestNG.SeleniumTestngTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.verifyHorizontalSliderTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.authenticationTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.verifySelectedDropdownOptionIsActiveTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.selectCheckboxesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -99,5 +138,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java</url>
+          <line>25</line>
+          <properties class="SeleniumTestngTest" method="abTestingPageHasSpecificTextTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
