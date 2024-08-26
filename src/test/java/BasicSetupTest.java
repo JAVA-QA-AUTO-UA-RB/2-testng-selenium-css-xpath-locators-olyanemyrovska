@@ -1,4 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
@@ -25,5 +27,4 @@ public class BasicSetupTest {
     public void tearDown() {
         browser.quit();
     }
-
 }
